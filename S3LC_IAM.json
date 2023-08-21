@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetLifecycleConfiguration",
+                "s3:ListAllMyBuckets",
+                "s3:PutLifecycleConfiguration",
+                "sts:GetCallerIdentity",
+                "s3:GetObject",
+                "s3:RestoreObject",
+                "s3:GetObjectAttributes",
+                "s3:GetBucketNotification",
+                "s3:PutBucketNotification",
+                "sns:ListTopics",
+                "sns:CreateTopic"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
